@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProductDetailsActivity">
+
+
+    <ImageView
+        android:id="@+id/products_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/loader"
+        android:scaleType="centerCrop" />
+    <TextView
+        android:id="@+id/details_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/products_image"
+        android:textStyle="bold"
+        android:text="Product Name"
+        android:textSize="17dp"
+        />
+    <TextView
+    android:id="@+id/details_description"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/details_title"
+    android:textStyle="bold"
+    android:text="Product Description:"
+    android:textSize="17dp"
+    />
+
+    <TextView
+        android:id="@+id/details_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/details_description"
+        android:textStyle="bold"
+        android:text="Product Price:"
+        android:textSize="17dp"
+        />
+
+    <Button
+        android:id="@+id/requestBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/details_price"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="129dp"
+        android:gravity="center"
+        android:text="Send Request" />
+
+
+</RelativeLayout>

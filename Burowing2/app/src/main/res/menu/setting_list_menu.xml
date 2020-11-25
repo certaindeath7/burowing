@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_items_borrowing"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="Items Borrowing"/>
+
+    <item
+        android:id="@+id/action_items_lending"
+        android:enabled="true"
+        android:icon="@drawable/ic_list"
+        android:title="Items Borrowing"/>
+
+    <item
+        android:id="@+id/action_build_resume"
+        android:enabled="true"
+        android:icon="@drawable/ic_camera"
+        android:title="Build resume"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:enabled="true"
+        android:icon="@drawable/ic_message"
+        android:title="Settings"/>
+
+    <item
+        android:id="@+id/action_logout"
+        android:enabled="true"
+        android:icon="@drawable/ic_signout"
+        android:title="Log out"/>
+</menu>

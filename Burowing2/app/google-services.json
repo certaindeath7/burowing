@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "794158056298",
+    "firebase_url": "https://burowing-4f3ea.firebaseio.com",
+    "project_id": "burowing-4f3ea",
+    "storage_bucket": "burowing-4f3ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:794158056298:android:6fcfe28422f4a04b",
+        "android_client_info": {
+          "package_name": "com.example.burowing2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "794158056298-7oev7sae26fqe9ri7mt0tjk4s4dndbtq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKrZm2DRJZ5bmammtQ0TmUPkBfHekPNNE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "794158056298-7oev7sae26fqe9ri7mt0tjk4s4dndbtq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
